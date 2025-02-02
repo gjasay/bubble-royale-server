@@ -1,5 +1,4 @@
-import type { CircleEntity } from "../client/src/schema/CircleEntity";
-import type { Tile } from "../client/src/schema/Tile";
+import type { CircleEntity, Tile } from "../src/rooms/schema/GameState";
 import { PLAYER_RADIUS, TILE_SIZE } from "./Constants";
 
 type EzVec = [number, number];
