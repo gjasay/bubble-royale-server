@@ -1,8 +1,8 @@
 import { Client } from "colyseus";
 import { MyRoom } from "../MyRoom";
-import { BOOST_ACCELERATION, PLAYER_ACCELERATION } from "../../../../util/Constants";
-import { MovePlayer } from "../../../../util/Player";
-import { CollideCircles, ResolveCircleCollision, CollideCircleTile } from "../../../../util/Collision";
+import { BOOST_ACCELERATION, PLAYER_ACCELERATION } from "../../../util/Constants";
+import { MovePlayer } from "../../../util/Player";
+import { CollideCircles, ResolveCircleCollision, CollideCircleTile } from "../../../util/Collision";
 import { Player } from "../schema/GameState";
 
 export const HandleInput = (

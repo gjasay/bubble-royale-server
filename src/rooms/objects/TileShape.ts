@@ -1,4 +1,4 @@
-import { TILE_SIZE } from "../../../../util/Constants";
+import { TILE_SIZE } from "../../../util/Constants";
 import { CircleEntity, MyRoomState, Tile } from "../schema/GameState";
 import { RectEntity } from "./Entity";
 import { Vector2 } from "./Vector2";

@@ -8,15 +8,15 @@ import {
   CollideCircleTile,
   ResolveCircleCollision,
   ResolveCircleTileCollision,
-} from "../../../util/Collision";
-import { MovePlayer } from "../../../util/Player";
-import { IJoinOptions } from "../../../util/types";
+} from "../../util/Collision";
+import { MovePlayer } from "../../util/Player";
+import { IJoinOptions } from "../../util/types";
 import {
   MAX_BUBBLE_RADIUS,
   PLAYER_RADIUS,
   WORLD_HEIGHT,
   WORLD_WIDTH,
-} from "../../../util/Constants";
+} from "../../util/Constants";
 
 export class MyRoom extends Room<MyRoomState> {
   maxClients: number = 20;

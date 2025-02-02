@@ -1,5 +1,5 @@
 import { Schema, MapSchema, type, ArraySchema } from "@colyseus/schema";
-import { BOOST_MAX, PLAYER_RADIUS, MAX_BUBBLE_RADIUS, TILE_SIZE, WORLD_WIDTH, WORLD_HEIGHT } from "../../../../util/Constants";
+import { BOOST_MAX, PLAYER_RADIUS, MAX_BUBBLE_RADIUS, TILE_SIZE, WORLD_WIDTH, WORLD_HEIGHT } from "../../../util/Constants";
 
 export class CircleEntity extends Schema {
   @type("number") x: number = 0;

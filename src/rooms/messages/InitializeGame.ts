@@ -1,11 +1,11 @@
-import { CollideRects } from "../../../../util/Collision";
+import { CollideRects } from "../../../util/Collision";
 import {
   STRUCTURE_QTY,
   STRUCTURES,
   TILE_SIZE,
   WORLD_HEIGHT,
   WORLD_WIDTH,
-} from "../../../../util/Constants";
+} from "../../../util/Constants";
 import { getRandomInt, MyRoom } from "../MyRoom";
 import { RectEntity } from "../objects/Entity";
 import { createTileShape } from "../objects/TileShape";
